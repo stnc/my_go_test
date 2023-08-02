@@ -15,3 +15,7 @@
 ```  go test -cover . ```
 
 ``` go run ./cmd/web ```
+
+##  only single go page
+
+``` go test -timeout 30s -run ^Test_application_handlers$ webapp/cmd/web ```
