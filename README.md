@@ -4,7 +4,7 @@
 
 # how complete (html output )
 
-go tool cover -html=coverage.out 
+``` bash go tool cover -html=coverage.out ```
 
 # how complete (html output open to  web browser)
 
