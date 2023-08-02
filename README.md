@@ -13,3 +13,5 @@
 ## how complete (percentile)
 
 ```  go test -cover . ```
+
+``` go run ./cmd/web ```
