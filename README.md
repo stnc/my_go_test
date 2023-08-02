@@ -21,4 +21,6 @@
 ``` go test -timeout 30s -run ^Test_application_handlers$ webapp/cmd/web ```
 
 
-```go test -timeout 30s -v -run TestAdd```
+``` go test -timeout 30s -v -run TestAdd```
+``` go test -run TestAdd ./chapter02/calculator -v ```
+
