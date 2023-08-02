@@ -8,8 +8,8 @@
 
 # how complete (html output open to  web browser)
 
-go tool cover -html=coverage.out 
+``` bash go tool cover -html=coverage.out ```
 
 # how complete (percentile)
 
-go test -cover . 
+``` bash go test -cover . ```
