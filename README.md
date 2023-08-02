@@ -4,7 +4,7 @@
 
 ## how complete (html output )
 
-```  go tool cover -html=coverage.out ```
+```  go test -coverprofile=coverage.out ```
 
 ## how complete (html output open to  web browser)
 
