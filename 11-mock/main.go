@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-	"net/url"
-	"strings"
 )
 
 // MessageService handles notifying clients they have
@@ -39,27 +37,9 @@ func (a MyService) ChargeCustomer(value int) error {
 
 // A "Production" Example
 func main() {
-	//	fmt.Println("Hello World")
-	//
-	//	smsService := SMSService{}
-	//	myService := MyService{smsService}
-	//	myService.ChargeCustomer(100)
-	fmt.Println(verifyCertURL("https://s3.amazonaws.com:443/echo.api/echo-api-cert.pem"))
-}
-func verifyCertURL(path string) bool {
-	link, _ := url.Parse(path)
 
-	if link.Scheme != "https" {
-		return false
-	}
+	smsService := SMSService{}
+	myService := MyService{smsService}
+	myService.ChargeCustomer(100)
 
-	if link.Host != "s3.amazonaws.com" && link.Host != "s3.amazonaws.com:443" {
-		return false
-	}
-
-	if !strings.HasPrefix(link.Path, "/echo.api/") {
-		return false
-	}
-
-	return true
 }

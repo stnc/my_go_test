@@ -2,6 +2,7 @@ package calculations
 
 import (
 	"errors"
+	"fmt"
 	"testify-tutorial/stocks"
 	"time"
 )
@@ -30,6 +31,6 @@ func (pic *priceIncreaseCalculator) PriceIncrease() (float64, error) {
 	if len(prices) < 2 {
 		return 0.0, errors.New("not enough data")
 	}
-
-	return (prices[0].Price/prices[1].Price - 1.0) * 100.0, nil
+	fmt.Println(prices[0].Price)
+	return (prices[0].Price/prices[1].Price - 6.0) * 100.0, nil
 }
