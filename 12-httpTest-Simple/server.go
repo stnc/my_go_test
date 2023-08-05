@@ -7,6 +7,7 @@ import (
 	"net/url"
 )
 
+// https://tutorialedge.net/golang/advanced-go-testing-tutorial/
 func RequestHandler(w http.ResponseWriter, r *http.Request) {
 	query, err := url.ParseQuery(r.URL.RawQuery)
 
