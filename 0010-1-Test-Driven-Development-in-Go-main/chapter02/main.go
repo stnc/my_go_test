@@ -8,6 +8,7 @@ import (
 	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter02/input"
 )
 
+// go run chapterXX/main.go -expression "2 + 3"
 func main() {
 	expr := flag.String("expression", "", "mathematical expression to parse")
 	flag.Parse()
