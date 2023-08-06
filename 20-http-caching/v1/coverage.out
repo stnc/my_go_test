@@ -1,0 +1,11 @@
+mode: set
+cach/v1/main.go:18.13,23.16 5 0
+cach/v1/main.go:23.16,25.3 1 0
+cach/v1/main.go:27.59,34.57 5 1
+cach/v1/main.go:34.57,35.33 1 0
+cach/v1/main.go:35.33,38.4 2 0
+cach/v1/main.go:41.2,46.21 5 1
+cach/v1/main.go:50.58,53.55 2 1
+cach/v1/main.go:53.55,55.3 1 0
+cach/v1/main.go:57.2,59.51 3 1
+cach/v1/main.go:59.51,61.3 1 0
