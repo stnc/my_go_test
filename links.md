@@ -11,6 +11,12 @@ https://github.com/vektra/mockery
 
 https://github.com/amitshekhariitbhu/go-backend-clean-architecture/tree/main
 
+https://www.toptal.com/go/your-introductory-course-to-testing-with-go important 
+
+20. ornek de %100 olan ornek var v1 ve v2 onu incelemek lazim
+
+
+14 de inancin ornegi iterator da ise yarayabilir 
 # amazon alexa test 
 
 https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/tree/2.0.x
