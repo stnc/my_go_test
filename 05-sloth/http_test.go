@@ -8,8 +8,8 @@ import (
 
 func TestGetSlothfulMessage(t *testing.T) {
 	router := http.NewServeMux()
-	// router.HandleFunc("/sloths", handleSlothfulMessage)// valid
-	router.HandleFunc("/sloth", handleSlothfulMessage)
+	//router.HandleFunc("/sloths", handleSlothfulMessage) // valid
+	router.HandleFunc("/sloth", handleSlothfulMessage) //invalid
 
 	svr := httptest.NewServer(router)
 	defer svr.Close()

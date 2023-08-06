@@ -25,3 +25,10 @@
 
 ``` go test -run TestAdd ./chapter02/calculator -v ```
 
+```go 
+// Convert2Err error to string
+func Convert2Err(err error) string {
+byteData := []byte(fmt.Sprintf("%v", err))
+return string(byteData)
+}
+```

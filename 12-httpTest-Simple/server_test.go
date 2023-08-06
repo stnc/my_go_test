@@ -1,8 +1,6 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
@@ -16,21 +14,15 @@ func TestRequestHandler(t *testing.T) {
 	RequestHandler(w, req)
 	res := w.Result()
 
-	// empJSON, err := json.MarshalIndent(res, "", "  ")
-	// if err != nil {
-	// 	fmt.Println(err.Error())
-	// }
-	// fmt.Printf("res oku\n %s\n", string(empJSON))
-
 	defer res.Body.Close()
 
 	data, err := ioutil.ReadAll(res.Body)
 
-	empJSON, err := json.MarshalIndent(data, "", "  ")
-	if err != nil {
-		fmt.Println(err.Error())
-	}
-	fmt.Printf("data oku\n %s\n", string(empJSON))
+	//empJSON, err := json.MarshalIndent(data, "", "  ")
+	//if err != nil {
+	//	fmt.Println(err.Error())
+	//}
+	//fmt.Printf("data oku\n %s\n", string(empJSON))
 
 	if err != nil {
 		t.Errorf("Error: %v", err)
