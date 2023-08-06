@@ -31,4 +31,7 @@ func Convert2Err(err error) string {
 byteData := []byte(fmt.Sprintf("%v", err))
 return string(byteData)
 }
+
+err error
+err = fmt.Errorf("reqRoot.Context.System.ApiEndpoint is empty")
 ```
