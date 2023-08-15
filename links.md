@@ -17,6 +17,8 @@ https://www.toptal.com/go/your-introductory-course-to-testing-with-go important
 
 
 14 de inancin ornegi iterator da ise yarayabilir 
+
+16 gin test ornegi var 
 # amazon alexa test 
 
 https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/tree/2.0.x
