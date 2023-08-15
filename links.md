@@ -36,3 +36,5 @@ https://github.com/stnc-go/go-alexa
 https://github.com/stnc-go/alexa-go
 
 https://github.com/ericdaugherty/alexa-skills-kit-golang/tree/master/samples/helloworld
+
+https://serdarkuzucu.com/2021/05/18/kaliteli-unit-test-nasil-yazilir/
